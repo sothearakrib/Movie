@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork 8- Movie</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link Anime.css -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body> 
+    <div class="container">
+        <nav class="navbar">      
+            <div class="navbar-menu">
+                <div class="logo animate__animated animate__backInDown">
+                    <a href="#"><img src="img/logo-white.png" alt=""></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">MOVIES</a>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERSHIP</a>
+                    </li>
+                    <li>
+                        <a href="#">NEW AND EVENT</a>
+                    </li>
+                    <li>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="herobanner">
+                <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/s-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/s-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/s-3.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <h1>NEW MOVIES RELEASE</h1>
+        </div>
+        <hr>
+        <!-- Row1 NEW MOVIES RELEASE -->
+        <div class="row gap">
+            <div class="col-4">
+                <div class="card" data-aos="fade-right">
+                    <img src="img/sub-hero1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="img/sub-hero2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card" data-aos="fade-left">
+                    <img src="img/sub-hero3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="title_popular_movie">
+            <h1>POPULAR MOVIES</h1>
+        </div>
+        <!-- Row2 POPULAR MOVIES -->
+        <div class="row_popular-movie">
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="200">
+                    <img src="img/05.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="400">
+                    <img src="img/15.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="600">
+                    <img src="img/16.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="800">
+                    <img src="img/18.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="img/19.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_pp_movie" data-aos="zoom-in" data-aos-duration="1200">
+                    <img src="img/40.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="title_lasted_movie">
+            <h1>LASTED MOVIES</h1>
+        </div>
+        <!-- Row3 LASTED MOVIES -->
+        <div class="row_lasted_movie">
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="100">
+                    <img src="img/20.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="300">
+                    <img src="img/24.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="500">
+                    <img src="img/25.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="700">
+                    <img src="img/26.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="900">
+                    <img src="img/27.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_lasted_movie" data-aos="zoom-in" data-aos-duration="1100">
+                    <img src="img/36.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slie" data-aos="flip-left"data-aos-easing="ease-out-cubic"data-aos-duration="1000">
+            <img src="img/1.jpg" alt="">
+        </div>
+        <div class="title_coming_soon">
+            <h1>COMING SOON MOVIES</h1>
+        </div>
+        <!-- Row4 COMING SOON MOVIES -->
+        <div class="row_coming_soon">
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="100" >
+                    <img src="img/28.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="300">
+                    <img src="img/29.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="500">
+                    <img src="img/30.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="700">
+                    <img src="img/31.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="900">
+                    <img src="img/32.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="card_coming_soon" data-aos="flip-right"data-aos-duration="1000">
+                    <img src="img/34.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>ANT Training Center 2024</p>
+    </div>
+</body>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+     AOS.init();
+    </script>
+</html>
